@@ -1,1 +1,40 @@
-
+{
+  "rubric_name": "AI Data Quality and LLM Response Evaluation Rubric",
+  "version": "1.0",
+  "score_scale": {
+    "minimum": 1,
+    "maximum": 5
+  },
+  "dimensions": {
+    "accuracy": {
+      "description": "Measures factual, logical, and data correctness.",
+      "weight": 0.35
+    },
+    "relevance": {
+      "description": "Measures whether the response addresses the requested task.",
+      "weight": 0.25
+    },
+    "completeness": {
+      "description": "Measures whether required information is sufficiently covered.",
+      "weight": 0.20
+    },
+    "instruction_following": {
+      "description": "Measures compliance with explicit task and format requirements.",
+      "weight": 0.20
+    }
+  },
+  "pass_threshold": 3.5,
+  "severity_levels": [
+    "none",
+    "minor",
+    "major",
+    "critical"
+  ],
+  "confidence_scale": {
+    "1": "Very low confidence",
+    "2": "Low confidence",
+    "3": "Moderate confidence",
+    "4": "High confidence",
+    "5": "Very high confidence"
+  }
+}
