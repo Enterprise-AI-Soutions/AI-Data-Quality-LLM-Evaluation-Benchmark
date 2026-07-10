@@ -669,15 +669,15 @@ Production evaluation systems should document:
 
 - ## Pipeline Execution
 
-![Successful pipeline execution](docs/images/pipeline-success.png)
+![Successful pipeline execution](docs/images/Pipeline-Success.png)
 
 - ## Evaluator Agreement Analysis
 
-![Evaluator agreement summary](docs/images/evaluator-agreement.png)
+![Evaluator agreement summary](docs/images/Evaluator-Agreement.png)
 
 - ## Adjudication Queue
 
-![Disagreement cases routed for review](docs/images/adjudication-queue.png)
+![Disagreement cases routed for review](docs/images/Adjudication-Queue.png)
 
 ---
 
