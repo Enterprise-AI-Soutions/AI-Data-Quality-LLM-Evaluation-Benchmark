@@ -667,15 +667,21 @@ Production evaluation systems should document:
 - dataset provenance;
 - known limitations.
 
-- ## Pipeline Execution
+## Pipeline Execution
+
+The pipeline validates evaluation data, scores annotations, analyzes evaluator agreement, creates an adjudication queue, generates reports, and runs automated tests.
 
 ![Successful pipeline execution](docs/images/Pipeline-Success.png)
 
-- ## Evaluator Agreement Analysis
+## Evaluator Agreement Analysis
+
+The benchmark compares evaluator labels, severity classifications, and rubric scores to identify agreement patterns and meaningful disagreements.
 
 ![Evaluator agreement summary](docs/images/Evaluator-Agreement.png)
 
-- ## Adjudication Queue
+## Adjudication Queue
+
+Cases with meaningful evaluator disagreement are automatically routed to a review queue for human adjudication.
 
 ![Disagreement cases routed for review](docs/images/Adjudication-Queue.png)
 
