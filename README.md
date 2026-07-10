@@ -667,6 +667,18 @@ Production evaluation systems should document:
 - dataset provenance;
 - known limitations.
 
+- ## Pipeline Execution
+
+![Successful pipeline execution](docs/images/pipeline-success.png)
+
+- ## Evaluator Agreement Analysis
+
+![Evaluator agreement summary](docs/images/evaluator-agreement.png)
+
+- ## Adjudication Queue
+
+![Disagreement cases routed for review](docs/images/adjudication-queue.png)
+
 ---
 
 # License
