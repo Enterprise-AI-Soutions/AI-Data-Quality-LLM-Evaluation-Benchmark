@@ -197,7 +197,7 @@ AI-Data-Quality-LLM-Evaluation-Benchmark/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/goodgentleman918/AI-Data-Quality-LLM-Evaluation-Benchmark.git
+git clone https://github.com/Enterprise-AI-Soutions/AI-Data-Quality-LLM-Evaluation-Benchmark.git
 ```
 
 Move into the repository:
