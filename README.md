@@ -125,7 +125,7 @@ Quality Reports
 
 ## Technology Stack
 
-- Python
+- Python 3.12
 - pandas
 - Pydantic
 - pytest
